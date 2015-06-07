@@ -1,0 +1,21 @@
+{
+  "name": "issuetotask",
+  "version": "0.0.0",
+  "authors": [
+    "Chris Birk <cmbirk@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.0",
+    "ui-router": "~0.2.15",
+    "angular-bootstrap": "~0.13.0",
+    "bootstrap": "~3.3.4"
+  }
+}
