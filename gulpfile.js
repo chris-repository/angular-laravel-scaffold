@@ -26,6 +26,6 @@ gulp.task('default', ['build'], function () {
 });
 
 //Build Task
-gulp.task('build', ['usemin', 'cachebust'], function () {
+gulp.task('build', ['rename', 'usemin', 'cachebust'], function () {
   gutil.log(gutil.colors.yellow('Running usemin task...'));
 });
